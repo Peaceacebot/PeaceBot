@@ -1,7 +1,7 @@
 services:
   - type: web
-    name: peacebot
+    name: PeaceBot
     env: python
     plan: free
     buildCommand: ""
-    startCommand: python peacebot.py
+    startCommand: "python peacebot.py"
